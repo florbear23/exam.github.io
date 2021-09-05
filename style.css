@@ -36,6 +36,7 @@ footer{
   text-align: center;
   height: 80px;
   padding-top: 40px;
+  margin-top: 50px;
 }
 
 .div-1 {
@@ -69,6 +70,7 @@ footer{
 
       height: 470px;
       margin: 0 15%;
+     
   }
 
 
@@ -157,9 +159,7 @@ footer{
 
      .div-2 div{
     display: inline;
-    margin: 10px 3px;
-    
-    ;
+    margin: 10px 3px; ;
   }
 
   .div-2 div img{
@@ -167,14 +167,22 @@ footer{
     width: 120px;
     height:100px ;
     margin:  10px 1px 0px 1px;
-    border: 3px solid green;
+    border: grey 3px solid;
+
   }
+  
 
   .div-2 .column :hover{
       opacity: 0.5;
       transition: .1s ease;
       background: rgba(76, 175, 80, 0.3) /* Green background with 30% opacity */
      
+  }
+
+  
+
+  .div-2 div .active{
+    border: 5px solid green;
   }
 
 
@@ -208,7 +216,7 @@ footer{
 
   .container{
     align-items: center;
-    margin: 20px   10px 0 10px;
+    margin: 50px   10px 0 10px;
     flex-wrap: wrap;
     height: auto;
     
@@ -239,7 +247,7 @@ footer{
   }
 
   footer{
-    margin-top: 10px;
+    margin-top: 100px;
   }
 
   header h1{
